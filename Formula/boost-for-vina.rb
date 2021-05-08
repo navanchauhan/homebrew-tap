@@ -4,6 +4,12 @@ class BoostForVina < Formula
   url "https://boostorg.jfrog.io/artifactory/main/release/1.75.0/source/boost_1_75_0.tar.bz2"
   sha256 "953db31e016db7bb207f11432bef7df100516eeb746843fa0486a222e3fd49cb"
   license "BSL-1.0"
+
+  bottle do
+    root_url "https://github.com/navanchauhan/homebrew-tap/releases/download/boost-for-vina-1.75.0"
+    sha256 cellar: :any,                 catalina:     "d89416b4c696e0b730c9a2e6271b6343aeb14c1b7e441826ee8d0d50c4fe7c60"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "7708a5cca617e693167f4ca5e713c1d869b0ff09eea4601e6f60ce83a1ac7c02"
+  end
   keg_only "it only builds a minimal version"
 
   # Base copied from https://github.com/Homebrew/homebrew-core/blob/7bee008fe6aa30fe1ebbaaa2f70e98f4b0565e3a/Formula/boost.rb
