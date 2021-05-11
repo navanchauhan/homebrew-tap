@@ -1,4 +1,4 @@
-# Navanchauhan Tap
+# Navan's Homebrew Tap
 
 ## How do I install these formulae?
 
