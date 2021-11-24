@@ -9,13 +9,23 @@ class AutodockVina < Formula
   depends_on "swig" => :build
 
   def install
-    #ENV.deparallelize
-    cd "build/mac/release" do
-      system "make"
-      system "make"
-      bin.install "vina"
-      bin.install "vina_split"
+    if OS.mac? do
+      cd "build/mac/release" do
+        system "make"
+        system "make"
+        bin.install "vina"
+        bin.install "vina_split"
+      end
     end
+    if OS.linux? do
+      cd "build/linux/release" do
+        system "make"
+        system "make"
+        bin.install "vina"
+        bin.install "vina_split"
+      end
+    end
+    
   end
 
   test do
