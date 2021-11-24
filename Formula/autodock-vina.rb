@@ -1,5 +1,5 @@
 class AutodockVina < Formula
-  desc "Open-source program for doing molecular docking"
+  desc "Open-source program for doing Molecular Docking"
   homepage "https://vina.scripps.edu"
   url "https://github.com/ccsb-scripps/AutoDock-Vina/archive/refs/tags/v1.2.3.tar.gz"
   sha256 "22f85b2e770b6acc363429153b9551f56e0a0d88d25f747a40d2f55a263608e0"
