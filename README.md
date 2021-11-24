@@ -14,7 +14,7 @@ Or `brew tap navanchauhan/tap` and then `brew install <formula>`.
 
 | Name | Changes to Code | Reason/Comments | Install |
 | --- | --- | --- | --- |
-| AutoDock Vina | - | - | `brew install navanchauhan/tap/autodock-vina` |
+| AutoDock Vina (1.2.3) | - | - | `brew install navanchauhan/tap/autodock-vina` |
 
 
 As of v1.2.3 AutoDock Vina has an upstream source which does not require heavy modifications. I will be pushing the formula to the main homebrew repo soon.
