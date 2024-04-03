@@ -62,6 +62,8 @@ class AutodockVina < Formula
           system python3, "-m", "pip", "install", *std_pip_args(build_isolation: true), "."
         end
       end
+      ohai "Python bindings installed for python@3.11 python@3.12 and latest version of python@3"
+      ohai "You may have to link numpy by running brew link numpy"
     end
   end
 
