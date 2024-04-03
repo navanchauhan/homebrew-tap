@@ -5,6 +5,12 @@ class AutodockVina < Formula
   sha256 "38aec306bff0e47522ca8f581095ace9303ae98f6a64031495a9ff1e4b2ff712"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/navanchauhan/homebrew-tap/releases/download/autodock-vina-1.2.5"
+    sha256 cellar: :any_skip_relocation, ventura:      "823c129022a352f0b8cda5d888fb7eea9689fc1b8ee8dd2623e37335eca2279e"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b8a77ea05bf460e7e13113798e2f99b90fad63c574aee733d59c944f2d5bed94"
+  end
+
   depends_on "swig" => :build
   depends_on "boost"
 
