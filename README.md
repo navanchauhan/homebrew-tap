@@ -1,4 +1,4 @@
-# Navanchuahan Tap
+# Navan's Tap
 
 ## How do I install these formulae?
 
